@@ -6,15 +6,15 @@ Responde a una pregunta típica de un equipo de producto: *¿qué modelo o qué 
 
 ## Qué hace
 
-1. Lee un set de tareas desde `tareas/tareas.json` (prompt, conceptos clave esperados, límite de palabras).
-2. Envía cada tarea a cada configuración definida en `CONFIGURACIONES`.
+1. Lee un set de tareas desde tareas/tareas.json (prompt, conceptos clave esperados, límite de palabras).
+2. Envía cada tarea a cada configuración definida en CONFIGURACIONES.
 3. Evalúa cada respuesta:
    - **Cobertura de conceptos clave** (7 puntos)
    - **Respeto del largo pedido** (3 puntos)
    - **Tiempo de respuesta**
 4. Genera:
-   - `reportes/reporte-*.md`: ranking, recomendación y detalle por tarea
-   - `reportes/resultados-*.csv`: datos crudos para analizar en Excel o pandas
+   - reportes/reporte-*.md: ranking, recomendación y detalle por tarea
+   - reportes/resultados-*.csv: datos crudos para analizar en Excel o pandas
 
 ## Cómo usarlo
 
@@ -29,7 +29,7 @@ export ANTHROPIC_API_KEY="tu-clave"
 python comparador.py
 ```
 
-Para probar tus propios casos, creá otro JSON con el mismo formato y pasalo con `--tareas`.
+Para probar tus propios casos, creá otro JSON con el mismo formato y pasalo con --tareas.
 
 ## Tests
 
