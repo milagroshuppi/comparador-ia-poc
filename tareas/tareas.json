@@ -1,0 +1,20 @@
+[
+  {
+    "id": "explicar-api",
+    "prompt": "Explicale a un cliente no técnico qué es una API y para qué le sirve a su empresa.",
+    "palabras_clave": ["sistemas", "datos", "comunic"],
+    "max_palabras": 120
+  },
+  {
+    "id": "resumir-requerimiento",
+    "prompt": "Resumí este requerimiento en 3 puntos: 'El sistema de gestión del cliente debe registrar automáticamente cada pago recibido en el banco, avisar por mail si un pago falla y generar un reporte diario de cobranzas.'",
+    "palabras_clave": ["pago", "mail", "reporte"],
+    "max_palabras": 80
+  },
+  {
+    "id": "casos-de-prueba",
+    "prompt": "Proponé 3 casos de prueba para un formulario de login con usuario y contraseña.",
+    "palabras_clave": ["usuario", "contraseña", "error"],
+    "max_palabras": 150
+  }
+]
